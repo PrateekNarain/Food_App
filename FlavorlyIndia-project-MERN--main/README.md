@@ -20,7 +20,7 @@ You need Node.js and npm installed. I used Node v16, so that should work.
 
 1. Clone the repo:  
    ```
-   git clone https://github.com/jatin8817/FlavorlyIndia.git
+   git clone https://github.com/PrateekNarain/Food_App
    ```
 
 2. Go to the folder:  
