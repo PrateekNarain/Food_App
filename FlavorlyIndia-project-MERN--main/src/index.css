@@ -1,0 +1,41 @@
+@import "tailwindcss";
+.pt-24{
+  padding-top: 0;
+}
+html{
+  scroll-behavior: smooth;
+  overflow-y: hidden;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin {
+  animation: spin 40s linear infinite;
+}
+
+.cardSpin {
+  transition: transform 0.3s ease;
+}
+
+.cardSpin:hover {
+  transform: scale(1.2) rotate(35deg);
+}
+
+@keyframes loop-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.loop-scroll {
+  animation: loop-scroll 50s linear infinite;
+}
