@@ -1,4 +1,4 @@
-# FlavorlyIndia
+# Foodie 
 
 This is my project FlavorlyIndia, a MERN app to order meals at your doorsteps. You can check meal details, add to wishlist, and filter them. I built it with React and Tailwind CSS for styling.
 For Authentication i have used JWT, OTP Verification (Email & Phone), Password Reset, Automation in the project
